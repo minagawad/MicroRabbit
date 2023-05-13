@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MicroRabbbit.Banking.Domain.Commands
 {
-    public class CreatTransfornCommand :TransferCommand
+    public class CreatTransfornCommand : TransferCommand
     {
         public CreatTransfornCommand(int from, int to, decimal amount)
         {
